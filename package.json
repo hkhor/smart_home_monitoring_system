@@ -2,7 +2,13 @@
     "name": "fypPSDC2019",
     "description": "Smart Home Monitoring Systems",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-telegrambot": "5.3.0",
+        "node-red-dashboard": "2.9.8",
+        "node-red-node-mysql": "0.0.18",
+        "node-red-node-serialport": "0.7.1",
+        "node-red-contrib-telegrambot-home": "0.5.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_smart_home_monitoring.json",
