@@ -1,0 +1,12 @@
+{
+    "name": "fypPSDC2019",
+    "description": "Smart Home Monitoring Systems",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_smart_home_monitoring.json",
+            "credentialsFile": "flows_smart_home_monitoring_cred.json"
+        }
+    }
+}
